@@ -1,0 +1,25 @@
+* {
+    background-color: aqua;
+    text-align: center;
+}
+
+/* HEADING */
+
+.main-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornsilk;
+}
+
+.todolist{
+    margin: 200px;
+    background-color: beige;
+    border-radius: 15px;
+}
+
+.list{
+    border: 3px solid aqua;
+}
+.list-items{
+    color: #fff;
+    background-color: darkgray;
+}
