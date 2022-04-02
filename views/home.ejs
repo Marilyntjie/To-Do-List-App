@@ -1,0 +1,28 @@
+
+    <%- include("partials/header") -%>
+
+    <h2> <%= today %> </h2>
+    
+        <div class="new-items">
+                
+                <% for(let i = 0; i < list.length; i++) { %>
+
+                <div class="items-added">
+
+                    <input type="checkbox">
+                    <p> <%= list[i] %> </p>
+
+                </div>
+
+                <% }; %>            
+    
+           
+        </div>
+        <form class="item" action="/" method="post">
+
+            <input type="text" name="addItem" autocomplete="off">
+            <button type="submit" name="list">Add</button>
+        
+        </form>
+
+    <%- include("partials/footer") -%>
