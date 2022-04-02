@@ -1,25 +1,67 @@
 * {
-    background-color: aqua;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 252, 153);
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-
-/* HEADING */
-
-.main-heading{
-    font-family: Arial, Helvetica, sans-serif;
-    color: cornsilk;
+/* Headings */
+h1{
+    font-family: 'Send Flowers', cursive;
+    font-size: 60px;
+    padding: 20px;
+    text-shadow: 0px 10px 10px rgb(255, 176, 229);
 }
-
-.todolist{
-    margin: 200px;
-    background-color: beige;
+h2 {
+    padding: 10px;
+}
+p {
+    background-color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+/* List Items */
+.new-items{
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+input:checked+p {
+    text-decoration: line-through;
+}
+.items-added {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+input{
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 10px;
+}
+button{
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 10px;
+}
+form{
     border-radius: 15px;
 }
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 20px;
+}
 
-.list{
-    border: 3px solid aqua;
-}
-.list-items{
-    color: #fff;
-    background-color: darkgray;
-}
+
+
